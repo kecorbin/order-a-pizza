@@ -3,6 +3,7 @@ terraform {
 }
 
 variable "first_name" {
+  default = "Jane"
   description = "first name"
 }
 
